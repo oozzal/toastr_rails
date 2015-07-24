@@ -21,13 +21,13 @@ var showToast = function(flash){
     var msg = flash[i];
     var type = {
       notice: 'success',
-      alert: 'error',
+      error: 'error',
       warning: 'warning',
       info: 'info'
     };
     var options = {
       notice: {},
-      alert: { "timeOut": "0", "extendedTimeOut": "0" },
+      error: { "timeOut": "0", "extendedTimeOut": "0" },
       warning: { "timeOut": "0", "extendedTimeOut": "0" },
       info: {}
     };
